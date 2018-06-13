@@ -1,0 +1,45 @@
+.header {
+  background-color: #263238;
+  padding: 20px 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: row wrap;
+  text-align: center;
+}
+
+.header > .header-left {
+  width: 25%;
+  height: 1px;
+}
+
+.header > .header-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 24%;
+  padding: 10px;
+  background-color: #3C464C;
+  border-radius: 25px;
+}
+
+.header > .header-right > div.search-icon {
+  background-color: #3C464C;
+  border: 0;
+  width: 20%;
+}
+
+.header > .header-right > input[type=text] {
+  background-color: #3C464C;
+  width: 100%;
+  border: 0;
+  padding: 5px;
+  color: #fff;
+  font-size: 1.05em;
+}
+
+.header > .title {
+  width: 48%;
+  font-size: 1.5em;
+}

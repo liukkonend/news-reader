@@ -1,0 +1,28 @@
+a {
+    color: black;
+    background-color: white !important;
+    background-image: none !important;
+    text-decoration: none;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+.app > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}

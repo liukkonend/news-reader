@@ -1,0 +1,11 @@
+.story-list-item {
+    display: flex;
+}
+
+.story-list-item > div:first-child {
+    display: flex;
+}
+
+.story-list-item > div:nth-child(2) .story-body {
+    padding: 15px 0;
+}

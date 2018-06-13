@@ -1,0 +1,17 @@
+.search a {
+    color: #199DDB;
+}
+
+.search ul li {
+    border-top: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+.search .story-meta-author, .search .story-meta-time {
+    display: none;
+}
+
+.search .pagination {
+    display: flex;
+    justify-content: center;
+}

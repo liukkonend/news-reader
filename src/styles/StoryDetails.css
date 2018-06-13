@@ -1,0 +1,16 @@
+.story-details a {
+    color: #199DDB;
+}
+
+.story-details .story-meta-author, .story-details .story-meta-time  {
+    font-size: 0.8em;
+}
+
+.story-details .story-content {
+    margin-top: 35px;
+    display: flex;
+}
+
+.story-details .story-content .story-image {
+    min-width: 25%;
+}
